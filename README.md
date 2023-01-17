@@ -1,24 +1,33 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Recycling Radar
 
-Things you may want to cover:
+Este projeto tem por objetivo facilitar a conexão entre pessoas com o objetivo de estimular a reciclagem.
 
-* Ruby version
+Sua ideia base é que qualquer pessoa cadastrade itens para coleta ou doação.
 
-* System dependencies
+Do outro lado pode ser listado estes itens, filtrados por caracteristicas e principalmente ordenado por distancia atual.
 
-* Configuration
+Escolhido um item pode-se entrar em contato com o ofertante para negociar e assim pode-se ser feito um acordo de retirada.
 
-* Database creation
 
-* Database initialization
+## Stack utilizada
 
-* How to run the test suite
+**Front-end:** Ainda usando front end basico do rails, mais pretende-se no futuro migrar para react.
 
-* Services (job queues, cache servers, search engines, etc.)
+**Back-end:** Ruby on rails
 
-* Deployment instructions
+**Banco de dados:** Postgresql
 
-* ...
+
+## Roadmap
+
+- Endpoint para iniciar tratativa com anunciante.
+- Disparo de email.
+- Mudanca de status.
+- Conversao de CEP para lat. long.
+- Endpoint para fechar acordo.
+- Testes Unitarios.
+- Adicionar maquina docker.
+- Adicionar github actions.
+- Linter e analise de codigo.
+- Deploy em servico privado.
