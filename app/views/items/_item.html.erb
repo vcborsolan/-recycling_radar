@@ -1,0 +1,52 @@
+<div id="<%= dom_id item %>">
+  <p>
+    <strong>Name:</strong>
+    <%= item.name %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= item.description %>
+  </p>
+
+  <p>
+    <strong>Weight:</strong>
+    <%= item.weight %>
+  </p>
+
+  <p>
+    <strong>Quantity:</strong>
+    <%= item.quantity %>
+  </p>
+
+  <p>
+    <strong>Frequency:</strong>
+    <%= item.frequency.humanize %>
+  </p>
+
+  <p>
+    <strong>Category:</strong>
+    <%= item.category.name %>
+  </p>
+
+   <p>
+    <strong>Status:</strong>
+    <%= item.status.humanize %>
+  </p>
+
+  <p>
+    <strong>User:</strong>
+    <%= item.user_id %>
+  </p>
+
+  <p>
+    <strong>Latitude:</strong>
+    <%= item.latitude %>
+  </p>
+
+  <p>
+    <strong>Longitude:</strong>
+    <%= item.longitude %>
+  </p>
+
+</div>
