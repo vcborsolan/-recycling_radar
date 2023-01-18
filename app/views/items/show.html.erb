@@ -5,6 +5,7 @@
 <div>
   <%= link_to "Edit this item", edit_item_path(@item) %> |
   <%= link_to "Back to items", items_path %>
+  <%= link_to "Propose to collect it", new_collect_proposal_path(item_id: @item.id) %>
 
   <%= button_to "Destroy this item", @item, method: :delete %>
 </div>

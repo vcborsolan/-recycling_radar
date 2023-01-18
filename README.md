@@ -21,11 +21,11 @@ Escolhido um item pode-se entrar em contato com o ofertante para negociar e assi
 
 ## Roadmap
 
-- Endpoint para iniciar tratativa com anunciante.
+- Autenticacao de usuarios.
+- Adicionar a capacidade de exibir as propostas de coleta em relação a um item.
+- Adicionar a capacidade de listar as propostas de coleta pendentes e aceitas/rejeitadas.
 - Disparo de email.
-- Mudanca de status.
 - Conversao de CEP para lat. long.
-- Endpoint para fechar acordo.
 - Testes Unitarios.
 - Adicionar maquina docker.
 - Adicionar github actions.

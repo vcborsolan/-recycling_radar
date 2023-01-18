@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Collect proposals</h1>
+
+<div id="collect_proposals">
+  <% @collect_proposals.each do |collect_proposal| %>
+    <%= render collect_proposal %>
+    <p>
+      <%= link_to "Show this collect proposal", collect_proposal %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New collect proposal", new_collect_proposal_path %>
