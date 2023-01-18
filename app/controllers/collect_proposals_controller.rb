@@ -2,7 +2,6 @@ class CollectProposalsController < ApplicationController
   before_action :set_collect_proposal, only: %i[ show accept destroy reject]
   before_action :set_item, only: :create
   before_action :set_user, only: :create
-  protect_from_forgery with: :null_session
 
 
   # GET /collect_proposals or /collect_proposals.json
