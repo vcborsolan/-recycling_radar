@@ -33,3 +33,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# ignore current key sistem for db, please improve it!
+/config/database.yml

@@ -1,0 +1,9 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @collect_proposal %>
+
+<div>
+  <%= link_to "Back to collect proposals", collect_proposals_path %>
+
+  <%= button_to "Destroy this collect proposal", @collect_proposal, method: :delete %>
+</div>
